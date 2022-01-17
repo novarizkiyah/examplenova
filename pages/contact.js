@@ -6,7 +6,7 @@ import Post from '../components/Post'
 import { sortByDate } from '../utils'
 import Image from 'next/image'
 
-export default function Home({ posts }) {
+export default function Contact({ posts }) {
   return (
     <div>
       <Head>
