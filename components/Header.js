@@ -13,9 +13,7 @@ export default function Header() {
         <Link href='/' passHref>
           <h2>Nova Blog</h2>
         </Link>
-        
-
-        <ul className={isOpen === false ? styles.navmenu : styles.navmenu + ' ' + styles.active}>
+        <ul className={isOpen === false ? styles.navmenu : styles.navmenu + ' ' + styles.active }>
                 <li className={styles.navitem}>
                     <Link href="/">
                         <a className={styles.navlink}>Home</a>

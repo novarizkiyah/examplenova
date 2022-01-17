@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 .header{
     border-bottom: 1px solid #E2E8F0;
 }
 
 .navbar {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,8 +39,8 @@
 .navlink{
     font-size: 1rem;
     font-weight: 400;
-    color: #01050a;
-    text-transform: uppercase;
+    color: #cad6e6;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navlink:hover{
