@@ -21,20 +21,26 @@ export default function Header() {
                     
                 </li>
                 <li className={styles.navitem}>
+                    <Link href="/blog">
+                        <a className={styles.navlink}>Blog</a>
+                    </Link>   
+                </li>
+                <li className={styles.navitem}>
+                    <Link href="/projects">
+                        <a className={styles.navlink}>Projects</a>
+                    </Link>   
+                </li>
+                <li className={styles.navitem}>
                     <Link href="/about">
                         <a className={styles.navlink}>About</a>
                     </Link>
-                </li>
-                <li className={styles.navitem}>
-                    <Link href="/contact">
-                        <a className={styles.navlink}>Contact</a>
-                    </Link>   
                 </li>
             </ul>
             <button className={isOpen === false ? 
                 styles.hamburger : styles.hamburger + ' ' + styles.active}
                 onClick={openmenu}
                 >
+                <span className={styles.bar}></span>
                 <span className={styles.bar}></span>
                 <span className={styles.bar}></span>
                 <span className={styles.bar}></span>

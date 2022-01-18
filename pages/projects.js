@@ -6,11 +6,11 @@ import Post from '../components/Post'
 import { sortByDate } from '../utils'
 import Image from 'next/image'
 
-export default function Home({ posts }) {
+export default function Projects({ posts }) {
   return (
     <div>
       <Head>
-        <title>studywithnova | Home</title>
+        <title>studywithnova | Projects</title>
       </Head>
       <h2>Hello, Im Nova Lailatul Rizkiyah</h2>
       <p>Currently work as a frontend developer.
