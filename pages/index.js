@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>studywithnova | Home</title>
+        <title>Home|studywithnova</title>
       </Head>
       <h2>Hello, Im Nova Lailatul Rizkiyah</h2>
       <p>Currently work as a frontend developer.

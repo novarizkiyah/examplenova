@@ -10,7 +10,7 @@ export default function Projects({ posts }) {
   return (
     <div>
       <Head>
-        <title>studywithnova | Projects</title>
+        <title>Projects|studywithnova</title>
       </Head>
       <h2>Hello, Im Nova Lailatul Rizkiyah</h2>
       <p>Currently work as a frontend developer.

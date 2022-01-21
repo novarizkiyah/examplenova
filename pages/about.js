@@ -10,7 +10,7 @@ export default function About({ posts }) {
   return (
     <div>
       <Head>
-        <title>studywithnova | About</title>
+        <title>About|studywithnova</title>
       </Head>
       <h1>About</h1>
       <h2>Nova Lailatul Rizkiyah</h2>
